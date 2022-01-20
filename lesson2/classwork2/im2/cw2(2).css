@@ -1,0 +1,18 @@
+.figure1
+{
+    height:200px;
+    width:400px;
+    background-color: #495252;
+    box-shadow: #ffce18 -25px -15px 20px;
+    margin:50px;
+
+}
+.figure2
+{
+
+    width: 400px;
+    border-left:5px red solid;
+    text-align: start;
+    font-size: 21px;
+    padding-left: 20px;
+}
