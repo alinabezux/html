@@ -1,0 +1,42 @@
+.father
+{
+    width: 600px;
+    height: 300px;
+    display: flex;
+    flex-wrap: wrap;
+    box-sizing: content-box;
+}
+.item1
+{
+    width: 600px;
+    height: 100px;
+    background:lightgrey;
+    text-align: center;
+}
+.item2
+{
+    width: 450px;
+    height:200px;
+    background:gray;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.item3
+{
+    width:150px;
+    height:200px;
+    background:darkgray;
+    text-align: center;
+}
+.b
+{
+    width: 600px;
+    height: 100px;
+}
+.c
+{
+    width:150px;
+    height:100px;
+}
