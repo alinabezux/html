@@ -10,15 +10,16 @@
 {
     width: 600px;
     height: 100px;
-    background:lightgrey;
+    background: #077cf1;
     text-align: center;
+
 }
 .item2
 {
     width: 450px;
     height:200px;
-    background:gray;
     text-align: center;
+    background: #0fa5e5;
     display: flex;
     flex-wrap: wrap;
 
@@ -27,13 +28,8 @@
 {
     width:150px;
     height:200px;
-    background:darkgray;
+    background: #2a5e9f;
     text-align: center;
-}
-.b
-{
-    width: 600px;
-    height: 100px;
 }
 .c
 {
