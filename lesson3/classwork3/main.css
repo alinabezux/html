@@ -4,7 +4,7 @@
     height: 300px;
     display: flex;
     flex-wrap: wrap;
-    box-sizing: content-box;
+    box-sizing: border-box;
 }
 .item1
 {
