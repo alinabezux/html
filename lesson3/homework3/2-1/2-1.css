@@ -1,0 +1,59 @@
+body{margin:0}
+.main
+{
+    width: 315px;
+    height: 475px;
+    background: lightgrey;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-evenly;
+    justify-content: space-evenly;
+
+}
+#header
+{
+    background: olivedrab;
+    width: 305px;
+    height: 75px;
+
+}
+.item
+{
+    width: 315px;
+    height: 305px;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-evenly;
+    justify-content: space-evenly;
+
+}
+#menu
+{
+    width:100px;
+    height:305px;
+    background: hotpink;
+}
+.item2
+{
+    width: 200px;
+    height: 305px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+.post
+{
+    width:200px;
+    height: 150px;
+    background: #0fa5e5;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+#footer
+{
+    width: 305px;
+    height: 75px;
+    background:yellow ;
+}

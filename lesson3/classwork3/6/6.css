@@ -6,13 +6,13 @@ body{margin: 0}
     box-sizing: border-box;
     height: 600px;
     width: 300px;
+    background: #495252;
 }
 .item1
 {
     width:300px;
     height: 450px;
     background: #0fa5e5;
-    text-align: center;
     display: flex;
     flex-wrap: wrap;
 }
@@ -20,27 +20,40 @@ body{margin: 0}
 {
     width: 150px;
     height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 .c2
 {
     width: 300px;
     height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 .item2
 {
     width:300px;
     height: 150px;
     background: #0d86b9;
-    text-align: center;
     display: flex;
+    flex-wrap: wrap;
 }
 .c3
 {
     width: 100px;
     height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 h1
 {
-    font-size: 15px;
     color: floralwhite;
+}
+
+.c3> h1
+{
+    font-size: 12px;
 }

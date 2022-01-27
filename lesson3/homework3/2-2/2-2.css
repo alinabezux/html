@@ -1,0 +1,52 @@
+body{margin:0}
+.mainbox
+{
+    height: 580px;
+    width: 330px;
+    background: #bcc0c0;
+    box-sizing: border-box;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-evenly;
+    justify-content: space-evenly;
+}
+.widgets
+{
+    height: 150px;
+    width: 315px;
+    background: #0fa5e5;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-evenly;
+    justify-content: space-evenly;
+}
+
+.item3
+{
+    height: 100px;
+    width: 330px;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-evenly;
+    justify-content: space-evenly;
+}
+.w
+{
+    height: 100px;
+    width: 100px;
+    background: #2a5e9f;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-evenly;
+    justify-content: space-evenly;
+}
+.contact
+{
+    height: 300px;
+    width: 315px;
+    background: cornflowerblue;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-evenly;
+    justify-content: space-evenly;
+}

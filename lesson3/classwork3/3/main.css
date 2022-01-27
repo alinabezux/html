@@ -6,7 +6,6 @@ body{margin:0}
     display: flex;
     flex-wrap: wrap;
     box-sizing: border-box;
-    align-content: center;
 
 }
 .item1
@@ -14,38 +13,41 @@ body{margin:0}
     width: 600px;
     height: 100px;
     background:lightgrey;
-    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 .item2
 {
     width: 450px;
     height:200px;
     background:gray;
-    text-align: center;
     display: flex;
     flex-wrap: wrap;
-
 }
 .item3
 {
     width:150px;
     height:200px;
     background:darkgray;
-    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 
 }
 .b
 {
     width: 600px;
     height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .c
 {
     width:150px;
     height:100px;
-}
-h1
-{
-    font-size: 25px;
-
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
