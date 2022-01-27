@@ -1,3 +1,4 @@
+body{margin:0}
 .father
 {
     width: 600px;
@@ -5,6 +6,8 @@
     display: flex;
     flex-wrap: wrap;
     box-sizing: border-box;
+    align-content: center;
+
 }
 .item1
 {
@@ -29,6 +32,7 @@
     height:200px;
     background:darkgray;
     text-align: center;
+
 }
 .b
 {
@@ -39,4 +43,9 @@
 {
     width:150px;
     height:100px;
+}
+h1
+{
+    font-size: 25px;
+
 }
