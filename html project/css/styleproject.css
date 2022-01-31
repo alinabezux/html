@@ -1,0 +1,277 @@
+*
+{
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding-top: 0;
+
+}
+:root
+{
+    --black-color: #0B2330;
+    --yellow-color:#F9C600
+
+}
+.wrapper
+{
+    max-width: 1368px;
+    margin: 0 auto;
+}
+.top_bar
+{
+    height: 83px;
+    display: flex;
+    justify-content: space-between;
+}
+.header_logo,.nav_menu,.nav_buttons
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.nav_menu
+{
+    column-gap: 56px;
+}
+.nav_buttons
+{
+    column-gap: 24px;
+}
+.btn
+{
+    height: 54px;
+    box-sizing: border-box;
+    border-radius: 4px;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    padding: 0 25px;
+    cursor: pointer;
+    transition: box-shadow .35s;
+}
+.btn:hover{
+    -webkit-box-shadow: 4px 4px 8px 0 rgba(34, 60, 80, 0.2);
+    -moz-box-shadow: 4px 4px 8px 0 rgba(34, 60, 80, 0.2);
+    box-shadow: 4px 4px 8px 0 rgba(34, 60, 80, 0.2);
+}
+.nav_btn_sign,.nav_btn_talk
+{
+    color: var(--black-color);
+    border: none;
+    background: none;
+}
+.nav_btn_start
+{
+    color: white;
+    background: var(--black-color);
+}
+.nav_menu__item a
+{
+    font-size: 16px;
+    line-height: 24px;
+    color:var(--black-color);
+    text-decoration: none;
+}
+.tick
+{
+    display:flex;
+    column-gap: 8px;
+}
+
+.header_wrap_content
+{
+    padding: 0;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+.header_content_description
+{
+    width: 436px;
+    display: flex;
+    flex-direction: column;
+    padding-top: 154px;
+    padding-left: 147px;
+    row-gap: 32px;
+}
+.header_content_title
+{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 60px;
+    line-height: 64px;
+}
+.header_content_text
+{
+    font-style: normal;
+    font-weight: normal;
+    color: #375361;
+    font-size: 22px;
+    line-height: 32px;
+}
+.header_content_images
+{
+    height: 886px;
+}
+
+.imggirl
+{
+    position: relative;
+    margin-top: -714px;
+    margin-left: -102px;
+}
+.header_content_buttons
+{
+    margin-top: 6px;
+    display: flex;
+    column-gap: 16px;
+}
+.cont_btn_start
+{
+    color: var(--black-color);
+    border: none;
+    background: var(--yellow-color);
+}
+.cont_btn_talk
+{
+    color: var(--black-color);
+    border: 1px solid var(--black-color);
+    background: none;
+}
+.block_2
+{
+    display: flex;
+    flex-direction: column;
+    margin: 189px 0 192px 0;
+    row-gap: 59px;
+    align-items: center;
+}
+.title_block_2
+{
+    text-align: center;
+    padding: 0 446px;
+}
+.logos
+{
+    box-sizing: border-box;
+    width: 1100px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    column-gap: 83px;
+    row-gap: 16px;
+}
+
+.block_3
+{
+    display: flex;
+    height: 494px;
+    background: #51CEBC;
+    border-radius: 10px;
+    margin: 0 32px;
+}
+.text_block_3
+{
+    display: flex;
+    flex-direction: column;
+    row-gap: 35px;
+    justify-content: center;
+}
+.text1_block_3
+{
+    width: 557px;
+}
+.text2_block_3
+{
+    width: 533px;
+}
+.block_4
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 191px 265px 160px;
+}
+.title_block_4
+{
+    width: 711px;
+    text-align: center;
+    margin-bottom: 57px;
+}
+.img_block_4{
+    display: flex;
+    margin-bottom: 113px;
+}
+.btn_block_4
+{
+    color:var(--black-color) ;
+    border: none;
+    background: var(--yellow-color);
+    display: flex;
+    align-items: center;
+
+}
+.block_5
+{
+    margin: 0 32px;
+    height: 537px;
+}
+
+.bg_block_5
+{
+    height: 537px;
+    width: 1260px;
+    background: #BD78F0;
+    border-radius: 10px;
+    margin-left: 116px;
+}
+.img_block_5
+{
+    margin-top: -473px;
+}
+.texts_block_5
+{
+    display: flex;
+    flex-direction: column;
+    width: 550px;
+    margin-left: 698px;
+    margin-top: -380px;
+
+}
+
+.text1_block_5
+{
+margin-bottom: 39px;
+}
+
+.title4248
+{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 42px;
+    line-height: 48px;
+    color: #0B2330;
+}
+.p3440
+{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 34px;
+    line-height: 40px;
+    color: var(--black-color);
+}
+.p2232
+{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 32px;
+    color: var(--black-color);
+}
+.p1728
+{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 17px;
+    line-height: 28px;
+    color: var(--black-color);
+}
