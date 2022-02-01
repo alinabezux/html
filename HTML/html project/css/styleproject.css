@@ -3,7 +3,11 @@
     font-family: 'Roboto', sans-serif;
     margin: 0;
     padding-top: 0;
-
+}
+.size1440
+{
+    width: 1440px;
+    margin: auto;
 }
 :root
 {
@@ -141,7 +145,7 @@
 {
     display: flex;
     flex-direction: column;
-    margin: 189px 0 192px 0;
+    margin: 189px auto 192px ;
     row-gap: 59px;
     align-items: center;
 }
